@@ -53,13 +53,13 @@ export default function Contact() {
       {/* 1. Header Banner */}
       <section className="bg-stone-pattern border-b border-slate-200/80 py-12 sm:py-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-          <span className="bg-[#6C1A32]/10 text-[#6C1A32] text-xs font-extrabold uppercase tracking-widest px-3.5 py-1.5 rounded-full inline-block">
+          <span className="bg-[#6C1A32]/10 text-[#6C1A32] text-[11px] sm:text-xs font-extrabold uppercase tracking-widest px-3.5 py-1.5 rounded-full inline-block">
             Direct Communication & Factory Line
           </span>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-[#6C1A32] font-sans tracking-tight">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-[#6C1A32] font-sans tracking-tight">
             Contact Beracah Marble & Granite
           </h1>
-          <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto font-body">
+          <p className="text-slate-600 text-xs sm:text-sm lg:text-base max-w-2xl mx-auto font-body text-center">
             Get in touch for custom pricing, site consultations, stone slab selection, and nationwide installation schedules.
           </p>
         </div>
@@ -160,11 +160,11 @@ export default function Contact() {
           
           {/* Form Column */}
           <div className="lg:col-span-7 bg-white p-8 sm:p-10 rounded-3xl border border-slate-200 shadow-xl space-y-6">
-            <div>
-              <span className="text-xs font-bold uppercase tracking-widest text-[#5B9D3C]">
+            <div className="text-center sm:text-left">
+              <span className="text-[11px] sm:text-xs font-bold uppercase tracking-widest text-[#5B9D3C]">
                 Interactive Spec Request Form
               </span>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#6C1A32] font-sans mt-1">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-[#6C1A32] font-sans mt-1">
                 Send Us Your Project Details
               </h2>
               <p className="text-slate-600 text-xs sm:text-sm mt-1">
@@ -263,9 +263,9 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full bg-[#5B9D3C] hover:bg-[#48802e] text-white py-4 rounded-xl font-bold text-sm uppercase tracking-wider shadow-lg shadow-emerald-700/20 hover:shadow-xl transition flex items-center justify-center space-x-2"
+                className="w-full bg-[#5B9D3C] hover:bg-[#48802e] text-white py-2.5 sm:py-4 px-4 sm:px-6 rounded-xl font-bold text-xs sm:text-sm uppercase tracking-wider shadow-md hover:shadow-xl transition flex items-center justify-center space-x-2"
               >
-                <MessageCircle className="w-5 h-5 fill-white stroke-[#5B9D3C]" />
+                <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 fill-white stroke-[#5B9D3C]" />
                 <span>Submit Specs via WhatsApp</span>
               </button>
             </form>

@@ -46,13 +46,13 @@ export default function Products({ onOpenQuote }) {
       {/* 1. Header Banner */}
       <section className="bg-stone-pattern border-b border-slate-200/80 py-12 sm:py-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-          <span className="bg-[#6C1A32]/10 text-[#6C1A32] text-xs font-extrabold uppercase tracking-widest px-3.5 py-1.5 rounded-full inline-block">
+          <span className="bg-[#6C1A32]/10 text-[#6C1A32] text-[11px] sm:text-xs font-extrabold uppercase tracking-widest px-3.5 py-1.5 rounded-full inline-block">
             Architectural Catalog & Product Gallery
           </span>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-[#6C1A32] font-sans tracking-tight">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-[#6C1A32] font-sans tracking-tight">
             Premium Marble & Granite Collection
           </h1>
-          <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto font-body">
+          <p className="text-slate-600 text-xs sm:text-sm lg:text-base max-w-2xl mx-auto font-body text-center">
             Explore our handcrafted tombstones, kitchen countertops, church podiums, and custom cut stone slabs. Every design can be customized to your precise dimensions.
           </p>
 
@@ -62,7 +62,7 @@ export default function Products({ onOpenQuote }) {
               <Search className="w-5 h-5 text-slate-400 absolute left-4 top-3.5" />
               <input
                 type="text"
-                placeholder="Search by stone type (e.g. Carrara, Black Galaxy)..."
+                placeholder="Search by marble type (e.g. Juprano, Black Galaxy)..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-11 pr-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-[#5B9D3C] focus:border-[#5B9D3C] outline-none text-sm bg-white shadow-sm"
@@ -153,10 +153,10 @@ export default function Products({ onOpenQuote }) {
       {/* 4. Bottom WhatsApp Custom Order Callout */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         <div className="bg-slate-900 rounded-3xl p-8 text-white flex flex-col sm:flex-row items-center justify-between gap-6 border-l-8 border-[#5B9D3C]">
-          <div>
-            <h3 className="text-2xl font-bold font-sans">Have a Custom Architectural Drawing or Dimensions?</h3>
+          <div className="text-center sm:text-left">
+            <h3 className="text-xl sm:text-2xl font-bold font-sans">Have a Custom Drawing or Dimensions in Mind?</h3>
             <p className="text-xs text-slate-300 mt-1">
-              Send your CAD drawings, photos, or exact measurements directly to our engineering team on WhatsApp.
+              Send your drawings, photos, or exact measurements directly to our engineering team on WhatsApp.
             </p>
           </div>
           <a

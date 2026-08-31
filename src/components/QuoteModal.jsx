@@ -135,9 +135,9 @@ export default function QuoteModal({ isOpen, onClose }) {
           <div className="pt-2">
             <button
               type="submit"
-              className="w-full bg-[#5B9D3C] hover:bg-[#48802e] text-white py-3.5 px-6 rounded-xl font-bold text-sm tracking-wide shadow-lg shadow-emerald-700/20 hover:shadow-xl transition duration-300 flex items-center justify-center space-x-2"
+              className="w-full bg-[#5B9D3C] hover:bg-[#48802e] text-white py-2.5 sm:py-3.5 px-4 sm:px-6 rounded-xl font-bold text-xs sm:text-sm tracking-wide shadow-md hover:shadow-xl transition duration-300 flex items-center justify-center space-x-2"
             >
-              <MessageCircle className="w-5 h-5" />
+              <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" />
               <span>Send Quote Request to WhatsApp</span>
             </button>
             <p className="text-center text-xs text-slate-500 mt-2">

@@ -78,7 +78,7 @@ export default function Navbar({ onOpenQuote }) {
       </div>
 
       {/* Main Navbar */}
-      <nav className={`sticky top-0 z-40 transition-all duration-300 ${scrolled ? 'glass-nav shadow-lg border-b border-slate-200/80 py-3' : 'bg-white border-b border-slate-100 py-4'}`}>
+      <nav className={`sticky top-0 z-40 bg-white transition-all duration-300 ${scrolled ? 'shadow-md border-b border-slate-200 py-3' : 'border-b border-slate-100 py-4'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
             

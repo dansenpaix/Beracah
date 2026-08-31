@@ -66,31 +66,31 @@ export default function Home({ onOpenQuote }) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
             {/* Hero Text Content */}
-            <div className="lg:col-span-7 space-y-6 text-left">
+            <div className="lg:col-span-7 space-y-6 text-center lg:text-left flex flex-col items-center lg:items-start">
               
               <div className="inline-flex items-center space-x-2 bg-[#6C1A32]/10 border border-[#6C1A32]/20 px-3.5 py-1.5 rounded-full text-[#6C1A32]">
                 <Award className="w-4 h-4 text-[#5B9D3C]" />
-                <span className="text-xs font-bold uppercase tracking-widest">
+                <span className="text-[11px] sm:text-xs font-bold uppercase tracking-widest">
                   Nigeria's Premier Stone Craftsmanship
                 </span>
               </div>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#6C1A32] font-sans tracking-tight leading-[1.15]">
+              <h1 className="text-2xl sm:text-4xl lg:text-6xl font-extrabold text-[#6C1A32] font-sans tracking-tight leading-snug sm:leading-[1.15]">
                 Crafted for Excellence: <br />
                 <span className="text-[#5B9D3C] font-serif italic font-normal">
                   Timeless Stone
                 </span> for Homes, Sanctuaries & Memorials
               </h1>
 
-              <p className="text-slate-700 text-base sm:text-lg max-w-2xl leading-relaxed font-body">
-                "Timeless Craftsmanship in Every Cut — Premium Marble & Granite Solutions." We specialize in diamond-polished granite countertops, dignified tombstones, architectural church pulpits, and custom cut stone slabs.
+              <p className="text-slate-700 text-xs sm:text-base lg:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-body">
+                "Timeless Craftsmanship in Every Cut , Premium Marble & Granite Solutions." We specialize in diamond-polished granite countertops, dignified tombstones, architectural church pulpits, and custom cut stone slabs.
               </p>
 
               {/* Dual CTAs */}
-              <div className="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+              <div className="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-4 w-full sm:w-auto">
                 <Link
                   to="/products"
-                  className="bg-[#5B9D3C] hover:bg-[#48802e] text-white px-8 py-4 rounded-xl font-bold text-base shadow-xl shadow-emerald-700/20 hover:shadow-2xl transition duration-300 flex items-center justify-center space-x-3 transform hover:-translate-y-0.5"
+                  className="bg-[#5B9D3C] hover:bg-[#48802e] text-white px-8 py-3.5 sm:py-4 rounded-xl font-bold text-sm sm:text-base shadow-xl shadow-emerald-700/20 hover:shadow-2xl transition duration-300 flex items-center justify-center space-x-3 transform hover:-translate-y-0.5"
                 >
                   <span>Explore Collection</span>
                   <ArrowRight className="w-5 h-5" />
@@ -100,7 +100,7 @@ export default function Home({ onOpenQuote }) {
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border-2 border-[#6C1A32] text-[#6C1A32] hover:bg-[#6C1A32] hover:text-white px-8 py-4 rounded-xl font-bold text-base shadow-md transition duration-300 flex items-center justify-center space-x-3"
+                  className="border-2 border-[#6C1A32] text-[#6C1A32] hover:bg-[#6C1A32] hover:text-white px-8 py-3.5 sm:py-4 rounded-xl font-bold text-sm sm:text-base shadow-md transition duration-300 flex items-center justify-center space-x-3"
                 >
                   <MessageCircle className="w-5 h-5 text-[#5B9D3C]" />
                   <span>Chat on WhatsApp</span>
@@ -108,18 +108,18 @@ export default function Home({ onOpenQuote }) {
               </div>
 
               {/* Quick Metrics */}
-              <div className="pt-6 grid grid-cols-3 gap-4 border-t border-slate-200/80 max-w-lg">
+              <div className="pt-6 grid grid-cols-3 gap-4 border-t border-slate-200/80 w-full max-w-lg">
                 <div>
-                  <p className="text-2xl font-extrabold text-[#6C1A32]">100%</p>
-                  <p className="text-xs text-slate-600 font-medium">Natural Granite & Marble</p>
+                  <p className="text-xl sm:text-2xl font-extrabold text-[#6C1A32]">100%</p>
+                  <p className="text-[10px] sm:text-xs text-slate-600 font-medium">Natural Granite & Marble</p>
                 </div>
                 <div>
-                  <p className="text-2xl font-extrabold text-[#5B9D3C]">CAD</p>
-                  <p className="text-xs text-slate-600 font-medium">Precision Edge Cutting</p>
+                  <p className="text-xl sm:text-2xl font-extrabold text-[#5B9D3C]">PEC</p>
+                  <p className="text-[10px] sm:text-xs text-slate-600 font-medium">Precision Edge Cutting</p>
                 </div>
                 <div>
-                  <p className="text-2xl font-extrabold text-[#6C1A32]">Nationwide</p>
-                  <p className="text-xs text-slate-600 font-medium">Delivery & Fitting</p>
+                  <p className="text-xl sm:text-2xl font-extrabold text-[#6C1A32]">Nationwide</p>
+                  <p className="text-[10px] sm:text-xs text-slate-600 font-medium">Delivery & Fitting</p>
                 </div>
               </div>
 
@@ -163,11 +163,11 @@ export default function Home({ onOpenQuote }) {
 
       {/* 2. TRUST & FEATURE CARDS (4-GRID) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-xs font-extrabold uppercase tracking-widest text-[#5B9D3C]">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
+          <h2 className="text-[11px] sm:text-xs font-extrabold uppercase tracking-widest text-[#5B9D3C]">
             Unmatched Craftsmanship Standards
           </h2>
-          <p className="text-3xl font-extrabold text-[#6C1A32] font-sans mt-1">
+          <p className="text-2xl sm:text-3xl font-extrabold text-[#6C1A32] font-sans mt-1">
             Why Architects & Families Trust Beracah
           </p>
         </div>
@@ -176,12 +176,12 @@ export default function Home({ onOpenQuote }) {
           {TRUST_POINTS.map((pt, idx) => (
             <div
               key={idx}
-              className="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-stone hover:shadow-stone-hover transition-all duration-300 space-y-4 group hover:-translate-y-1"
+              className="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-stone hover:shadow-stone-hover transition-all duration-300 space-y-4 group hover:-translate-y-1 text-center md:text-left flex flex-col items-center md:items-start"
             >
               <div className="p-3.5 bg-[#5B9D3C]/10 rounded-2xl w-fit group-hover:bg-[#5B9D3C] group-hover:text-white transition-colors">
                 {iconMap[pt.icon]}
               </div>
-              <h3 className="text-lg font-bold text-[#6C1A32] font-sans group-hover:text-[#5B9D3C] transition-colors">
+              <h3 className="text-base sm:text-lg font-bold text-[#6C1A32] font-sans group-hover:text-[#5B9D3C] transition-colors">
                 {pt.title}
               </h3>
               <p className="text-slate-600 text-xs leading-relaxed font-body">
@@ -195,18 +195,18 @@ export default function Home({ onOpenQuote }) {
       {/* 3. FEATURED CATEGORIES PREVIEW */}
       <section className="bg-[#F8F9FA] py-16 border-y border-slate-200/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
+          <div className="flex flex-col md:flex-row justify-between items-center md:items-end text-center md:text-left mb-10 sm:mb-12">
             <div>
-              <span className="text-xs font-extrabold uppercase tracking-widest text-[#5B9D3C]">
+              <span className="text-[11px] sm:text-xs font-extrabold uppercase tracking-widest text-[#5B9D3C]">
                 Explore Our Specializations
               </span>
-              <h2 className="text-3xl font-extrabold text-[#6C1A32] font-sans mt-1">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#6C1A32] font-sans mt-1">
                 Bespoke Stone Product Categories
               </h2>
             </div>
             <Link
               to="/products"
-              className="mt-4 md:mt-0 text-sm font-bold text-[#5B9D3C] hover:text-[#48802e] flex items-center space-x-1 hover:underline"
+              className="mt-4 md:mt-0 text-xs sm:text-sm font-bold text-[#5B9D3C] hover:text-[#48802e] flex items-center space-x-1 hover:underline"
             >
               <span>View Full Catalog</span>
               <ArrowRight className="w-4 h-4" />
@@ -218,7 +218,7 @@ export default function Home({ onOpenQuote }) {
               <Link
                 key={idx}
                 to={`/products?category=${cat.categoryId}`}
-                className="group relative rounded-2xl overflow-hidden shadow-lg h-80 flex flex-col justify-end p-6 border border-slate-200"
+                className="group relative rounded-2xl overflow-hidden shadow-lg h-80 flex flex-col justify-end p-6 border border-slate-200 text-left"
               >
                 <img
                   src={cat.image}
@@ -228,7 +228,7 @@ export default function Home({ onOpenQuote }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#6C1A32] via-[#6C1A32]/50 to-transparent"></div>
 
                 <div className="relative z-10 space-y-2 text-white">
-                  <h3 className="text-xl font-bold font-sans group-hover:text-amber-300 transition-colors">
+                  <h3 className="text-lg sm:text-xl font-bold font-sans group-hover:text-amber-300 transition-colors">
                     {cat.title}
                   </h3>
                   <p className="text-xs text-slate-200 line-clamp-2 leading-relaxed">
@@ -246,14 +246,14 @@ export default function Home({ onOpenQuote }) {
 
       {/* 4. WHY CHOOSE BERACAH (2-COLUMN SPLIT) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center bg-white p-8 sm:p-12 rounded-3xl border border-slate-200 shadow-xl">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center bg-white p-6 sm:p-12 rounded-3xl border border-slate-200 shadow-xl">
           
-          <div className="lg:col-span-6 space-y-6">
-            <span className="bg-[#6C1A32]/10 text-[#6C1A32] text-xs font-extrabold uppercase tracking-widest px-3 py-1 rounded-full">
+          <div className="lg:col-span-6 space-y-6 text-center lg:text-left flex flex-col items-center lg:items-start">
+            <span className="bg-[#6C1A32]/10 text-[#6C1A32] text-[11px] sm:text-xs font-extrabold uppercase tracking-widest px-3 py-1 rounded-full">
               Factory Precision & Craftsmanship
             </span>
 
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#6C1A32] font-sans leading-tight">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#6C1A32] font-sans leading-tight">
               Mastering the Art of Natural Stone Fabrication
             </h2>
 

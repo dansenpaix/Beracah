@@ -174,8 +174,8 @@ export const TRUST_POINTS = [
   },
   {
     icon: 'Ruler',
-    title: 'Precision CAD Custom Sizing',
-    description: 'Laser-guided cutting and edge profiling customized down to the millimeter for your exact space requirements.'
+    title: 'Precision Custom Sizing',
+    description: 'Straight cutting and edge profiling customized down to the millimeter for your exact space requirements.'
   },
   {
     icon: 'Sparkles',
