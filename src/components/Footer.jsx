@@ -27,7 +27,7 @@ export default function Footer({ onOpenQuote }) {
             </div>
 
             <p className="text-slate-200 text-sm leading-relaxed font-body">
-              Timeless Craftsmanship in Every Cut , Premium Marble & Granite Solutions. Custom tombstones, luxury kitchen countertops, sanctuary podiums & architectural stone.
+              Timeless Craftsmanship in Every Cut, Premium Marble & Granite Solutions. Custom tombstones, luxury kitchen countertops, sanctuary podiums & architectural stone.
             </p>
 
             <div className="pt-2 flex items-center space-x-3">
